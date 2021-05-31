@@ -4,43 +4,92 @@
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="shortcut icon" href="../imagenes/logo03.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <title>AIRhitect</title>
   </head>
-  <header class="menu-1">
-    <section class="grid-1">
-      <nav class="menu-2">
-        <ul class="menuInferior">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="projects.html">PROJECTS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
-    </section>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="index.html">home</a></li>
+              <li><a class="dropdown-item" href="projects.html">projects</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <img src="../imagenes/logo03.png" height="15px">
+          AIRhitect
+        </div>
+        <div class="col">
+          <a class="dropdown-item" href="contact.html">contact</a>
+        </div>
+      </div>
+    </div>
   </header>
   <body class="fondo">
-    <div class="posicionContact">
-        <form class="form-inline">
-            <label class="sr-only" for="inlineFormInputName2">Name</label>
-            <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="YOUR">
-            <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-            <div class="input-group mb-2 mr-sm-2">
-            <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
+    <div class="container">
+      <div class="rounded float-left">
+        <div class="col">
+          <div class="parrafo1">
+            <p>Contact us via email,</p>
+            <p>phone or come by into our office!</p>
+          </div>
+          <div>
+            <div class="follow">
+              <div>
+                <a href="https://www.facebook.com/"><img src="../iconos/facebook.svg"height="30px"></a>
+                <a href="https://www.instagram.com/"><img src="../iconos/instagram.svg" height="30px"></a>
+                <a href="https://twitter.com/"><img src="../iconos/twitter.svg" height="30px"></a>
+                <a href="https://www.youtube.com/"><img src="../iconos/youtube.svg" height="30px"></a>
+              </div>
             </div>
-            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="EMAIL.COM">
-            </div>
-            <br>
-        </form>
-        <div class="form-inline">
-            <textarea maxlength="200"required></textarea>
-            <button type="submit" class="btn btn-primary mb-2">Send</button>
+          </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+          <div class="col">
+            <div class="parrafo2">
+              <h3>We are hiring!</h3>
+              <p>We are looking for new talents to our teams! If you think you are the right person for AIRhitect send us 
+                an email with your CV and portfolio. Don't forget to write a little about yourself!
+              </p>
+              <p>job@airhitect.com</p>
+            </div>
+          </div>
+        </div>
+        </div>
+          <form class="footerForm">
+              <div>
+                  <input type="text"placeholder="FIRST NAME" required/>
+              </div>
+              <div>
+                  <input type="text"placeholder="LAST NAME" required/>
+              </div>
+          </form>
+          <br>
+          <form class="form-inline">
+              <label class="sr-only" for="inlineFormInputName2">Name</label>
+              <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="YOUR">
+              <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="EMAIL.COM">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">MESSAGE</textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
 </html>

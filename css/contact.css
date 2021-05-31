@@ -1,0 +1,140 @@
+/*contact.html*/
+.fondo {
+    background-image: url(../imagenes/contacto.png);
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+  
+.posicionContact {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-top: 15%;
+}
+  
+.posicionContact .form-inline textarea {
+    padding: 50px;
+}
+  
+.posicionContact .form-inline button {
+    font-size: 20px;
+}
+
+.dropdown a{
+    text-decoration: none;
+    font-family: 'Poiret One';
+    color:#615F4C;
+    background-color: transparent;
+    
+}
+.dropdown ul li a {
+    color:#615F4C;
+}
+.col a{
+    font-family: 'Poiret One';
+    color:#ffffff;
+}
+
+.col {
+    font-family: 'Poiret One';
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.parrafo1{
+    margin-top: 50px;
+}
+
+.parrafo2{
+    margin-top: 50px;
+    margin-right: 500px;
+}
+
+.footerForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    width: 100%;
+}
+
+.footerForm input {
+    padding: 5px;
+}
+
+.form-inline {
+    padding-left: 10px;
+}
+
+.follow {
+    font-size: 30px;
+}
+  
+.btn {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-transition: -webkit-transform 80ms ease-in;
+    transition: -webkit-transform 80ms ease-in;
+    transition: transform 80ms ease-in;
+    transition: transform 80ms ease-in, -webkit-transform 80ms ease-in;
+}
+
+.form-inline input{
+    background-color:#4E2F5C;
+    border: #4E2F5C;
+}
+
+.footerForm input{
+    background-color:#4E2F5C;
+    border: #4E2F5C;
+}
+
+.input-group-text{
+    background-color:#4E2F5C;
+    border: #4E2F5C;
+}
+
+.mb-3 textarea{
+    background-color:#4E2F5C;
+    border: #4E2F5C;
+}
+
+/*-------------------------------------------*/
+@media (max-width: 576px) {
+    .parrafo1{
+        margin-top: 50px;
+    }
+    
+    .parrafo2{
+        margin-top: 50px;
+        margin-right: 500px;
+    }
+}
+  
+@media (max-width: 768px) {
+    .parrafo1{
+        margin-top: 50px;
+    }
+    
+    .parrafo2{
+        margin-top: 50px;
+        margin-right: 500px;
+    }
+}
+  
+@media (max-width: 1200px) {
+
+  }
+
+  /*-------------------------------------------*/
